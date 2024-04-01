@@ -1,3 +1,56 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    position: relative;
+    background-color: rgb(131, 69, 95);
+    margin: 0 0 5px 0;
+    box-shadow: 5px 0 1px #ffdbef;
+}
+nav {
+    display: block;
+    min-width: 100px;
+}
+li {
+    margin: 30px;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius:70% ;
+    margin-right: 25px;
+}
+.name-project {
+    margin: 20px;;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+a {
+    font-size: 16px;
+}
+header h5 {
+    color: #f5f5f5;
+    text-align: center;
+}
+.header-wraper {
+    width: 100%;
+}
+
+.nav-wraper {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item-wraper {
+    display: block;
+    text-align: center;
+}
 body {
     background-image: linear-gradient(#c9729d,#c07c9c,#e69bba,#f5b1d3, #f3cfde);
     font-size: 22px;
