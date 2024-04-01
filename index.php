@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     if (!empty($_GET['save'])) {
         print('Спасибо, форма сохранена.');
     }
-    include('form.html');
+    include('index.html');
     exit();
 }
 
@@ -102,9 +102,9 @@ if ($errors) {
     exit();
 }
 
-$user = 'u67313';
-$pass = '4344635';
-$db = new PDO('mysql:host=localhost;dbname=u67313', $user, $pass, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+$user = 'u67371';
+$pass = '3920651';
+$db = new PDO('mysql:host=localhost;dbname=u67301', $user, $pass, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 foreach ($_POST['languages'] as $language) {
